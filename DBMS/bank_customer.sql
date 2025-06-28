@@ -11,7 +11,7 @@ insert into deposit values('1004','d1004',20000);
 insert into loan values('1003','l1003',25000);
 insert into loan values('1004','l1004',35000);
 
-a) select * from bankcustomer;
+a) select * from bank_customer;
 b) select cust_name,accno from bank_customer where accno in (select accno from deposit) and accno not in(select accno from loan);
 c) select cust_name,accno from bank_customer where accno in (select accno from loan) and accno not in(select accno from deposit);
 d) select cust_name,accno from bank_customer where accno in (select accno from loan) and accno in(select accno from deposit);
