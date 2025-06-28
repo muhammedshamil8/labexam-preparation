@@ -1,5 +1,5 @@
 create table areas (radius number(5,2),area number(5,2));
-Table created
+
 declare
 r number;
 a number;
